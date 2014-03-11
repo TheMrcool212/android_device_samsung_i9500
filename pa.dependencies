@@ -12,12 +12,6 @@
         "revision": "cm-11.0"
     },
     {
-        "repository": "android_device_samsung_i9500",
-        "target_path": "device/samsung/i9500",
-        "remote": "aospal",
-        "revision": "kitkat-legacy"
-    },
-    {
         "repository": "TheMuppets/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
         "remote": "github",
