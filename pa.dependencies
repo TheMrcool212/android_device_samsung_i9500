@@ -24,6 +24,12 @@
         "revision": "cm-11.0"
     },
     {
+        "repository": "android_kernel_samsung_exynos5410",
+        "target_path": "kernel/samsung/exynos5410",
+        "remote": "aospal",
+        "revision": "cm-11.0"
+    },
+    {
         "repository": "android_hardware_samsung_slsi_exynos5410",
         "target_path": "hardware/samsung_slsi/exynos5410",
         "remote": "cm",
