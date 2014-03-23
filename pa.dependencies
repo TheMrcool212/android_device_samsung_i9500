@@ -2,31 +2,25 @@
     {
         "repository": "CyanogenMod/android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode",
-        "remote": "github",
+        "remote": "cm",
         "revision": "cm-11.0"
     },
     {
         "repository": "CyanogenMod/android_hardware_samsung",
         "target_path": "hardware/samsung",
-        "remote": "github",
+        "remote": "cm",
         "revision": "cm-11.0"
     },
     {
         "repository": "TheMuppets/proprietary_vendor_samsung",
         "target_path": "vendor/samsung",
-        "remote": "github",
-        "revision": "cm-11.0"
-    },
-    {
-        "repository": "Perseus-UNIVERSAL5410",
-        "target_path": "kernel/samsung/Perseus-UNIVERSAL5410",
-        "remote": "aospal",
+        "remote": "cm",
         "revision": "cm-11.0"
     },
     {
         "repository": "android_kernel_samsung_exynos5410",
         "target_path": "kernel/samsung/exynos5410",
-        "remote": "aospal",
+        "remote": "cm",
         "revision": "cm-11.0"
     },
     {
