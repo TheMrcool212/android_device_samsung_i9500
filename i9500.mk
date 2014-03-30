@@ -144,7 +144,7 @@ PRODUCT_PACKAGES += \
 
 # Torch
 PRODUCT_PACKAGES += \
-    Torch
+    Lightbulb
 
 # Wifi
 PRODUCT_PACKAGES += \
