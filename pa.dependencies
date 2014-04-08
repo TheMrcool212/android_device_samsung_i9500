@@ -24,10 +24,10 @@
     "revision":     "cm-11.0"
   },
   {
-    "remote":       "github",
-    "repository":   "AOSPA-legacy/android_hardware_samsung_slsi_exynos5410",
+    "remote":       "cm",
+    "repository":   "CyanogenMod/android_hardware_samsung_slsi_exynos5410",
     "target_path":  "hardware/samsung_slsi/exynos5410",
-    "revision":     "kitkat"
+    "revision":     "cm-11.0"
   },  
   {
     "remote":       "cm",
