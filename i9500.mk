@@ -150,7 +150,7 @@ PRODUCT_PACKAGES += \
 
 # Set default USB interface
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb
+    persist.sys.usb.config=mtp
 
 # Enable repeatable keys in CWM
 PRODUCT_PROPERTY_OVERRIDES += \
