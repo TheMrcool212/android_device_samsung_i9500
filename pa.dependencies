@@ -12,8 +12,8 @@
     "revision":     "cm-11.0"
   },
   {
-    "remote":       "cm",
-    "repository":   "CyanogenMod/android_kernel_samsung_exynos5410",
+    "remote":       "github",
+    "repository":   "GearCM/android_kernel_samsung_exynos5410",
     "target_path":  "kernel/samsung/exynos5410",
     "revision":     "cm-11.0"
   },
