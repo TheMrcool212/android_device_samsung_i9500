@@ -110,6 +110,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     mcDriverDaemon
 
+# Device settings
+PRODUCT_PACKAGES += \
+    I9500Settings
+
 # NFC
 PRODUCT_PACKAGES += \
     libnfc-nci \
