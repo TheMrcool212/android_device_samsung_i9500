@@ -38,15 +38,8 @@ public class DeviceSettings extends FragmentActivity {
     public static final String ACTION_UPDATE_PREFERENCES = "com.cyanogenmod.settings.device.UPDATE";
     public static final String KEY_MDNIE_SCENARIO = "mdnie_scenario";
     public static final String KEY_MDNIE_MODE = "mdnie_mode";
-    public static final String KEY_MDNIE_OUTDOOR = "mdnie_outdoor_mode";
-    public static final String KEY_MDNIE_NEGATIVE = "mdnie_negative_mode";
-    public static final String KEY_TOUCHKEY_LIGHT = "touchkey_light";
-    public static final String KEY_PANEL_COLOR_TEMPERATURE = "panel_color_temperature";
 
     public static final String CATEGORY_MDNIE = "mdnie";
-    public static final String CATEGORY_SENSORS = "sensors";
-    public static final String CATEGORY_TOUCHKEY = "touchkey";
-    public static final String KEY_USE_DOCK_AUDIO = "dock_audio";
 
     ViewPager mViewPager;
     TabsAdapter mTabsAdapter;
@@ -68,10 +61,6 @@ public class DeviceSettings extends FragmentActivity {
         mTabsAdapter = new TabsAdapter(this, mViewPager);
         mTabsAdapter.addTab(bar.newTab().setText(R.string.category_mdnie_title),
                 mDNIeFragmentActivity.class, null);
-        mTabsAdapter.addTab(bar.newTab().setText(R.string.category_sensors_title),
-                SensorsFragmentActivity.class, null);
-        mTabsAdapter.addTab(bar.newTab().setText(R.string.category_sound_title),
-                SoundFragmentActivity.class, null);
         if (savedInstanceState != null) {
             bar.setSelectedNavigationItem(savedInstanceState.getInt("tab", 0));
         }

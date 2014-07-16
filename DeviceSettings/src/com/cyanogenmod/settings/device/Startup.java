@@ -26,11 +26,6 @@ public class Startup extends BroadcastReceiver {
     public void onReceive(final Context context, final Intent bootintent) {
         mDNIeScenario.restore(context);
         mDNIeMode.restore(context);
-        mDNIeOutdoor.restore(context);
-        mDNIeNegative.restore(context);
-        SensorsFragmentActivity.restore(context);
-        SoundFragmentActivity.restore(context);
-        PanelColorTemperature.restore(context);
     }
 
 }
