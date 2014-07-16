@@ -14,7 +14,7 @@
      limitations under the License.
  -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">mDNIe Settings</string>
+    <string name="app_name">Advanced Settings</string>
     <string name="defaults_button">Reset to default</string>
     <string name="screen_colors_title">Colors</string>
     <string name="category_mdnie_title">Screen</string>
