@@ -22,11 +22,9 @@ import android.preference.PreferenceFragment;
 
 public class mDNIeFragmentActivity extends PreferenceFragment {
 
-    private mDNIeScenario mmDNIeScenario;
-    private mDNIeMode mmDNIeMode;
-    private mDNIeOutdoor mmDNIeOutdoor;
-    private mDNIeNegative mmDNIeNegative;
-    private PanelColorTemperature mPanelColor;
+    private mDNIeScenario mDNIeScenario;
+    private mDNIeMode mDNIeMode;
+    private mDNIeNegative mDNIeNegative;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -36,26 +34,19 @@ public class mDNIeFragmentActivity extends PreferenceFragment {
 
         PreferenceCategory prefs = (PreferenceCategory) findPreference(DeviceSettings.CATEGORY_MDNIE);
 
-        mmDNIeScenario = (mDNIeScenario) findPreference(DeviceSettings.KEY_MDNIE_SCENARIO);
+        mDNIeScenario = (mDNIeScenario) findPreference(DeviceSettings.KEY_MDNIE_SCENARIO);
         if (!mDNIeScenario.isSupported()) {
-            prefs.removePreference(mmDNIeScenario);
+            prefs.removePreference(mDNIeScenario);
         }
 
-        mmDNIeMode = (mDNIeMode) findPreference(DeviceSettings.KEY_MDNIE_MODE);
+        mDNIeMode = (mDNIeMode) findPreference(DeviceSettings.KEY_MDNIE_MODE);
         if (!mDNIeMode.isSupported()) {
-            prefs.removePreference(mmDNIeMode);
+            prefs.removePreference(mDNIeMode);
         }
 
-        mmDNIeOutdoor = (mDNIeOutdoor) findPreference(DeviceSettings.KEY_MDNIE_OUTDOOR);
-
-        mmDNIeNegative = (mDNIeNegative) findPreference(DeviceSettings.KEY_MDNIE_NEGATIVE);
+        mDNIeNegative = (mDNIeNegative) findPreference(DeviceSettings.KEY_MDNIE_NEGATIVE);
         if (!mDNIeNegative.isSupported()) {
-            prefs.removePreference(mmDNIeNegative);
-        }
-
-        mPanelColor = (PanelColorTemperature) findPreference(DeviceSettings.KEY_PANEL_COLOR_TEMPERATURE);
-        if (!PanelColorTemperature.isSupported()) {
-            prefs.removePreference(mPanelColor);
+            prefs.removePreference(mDNIeNegative);
         }
 
         if (prefs.getPreferenceCount() == 0) {

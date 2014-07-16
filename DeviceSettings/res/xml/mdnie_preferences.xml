@@ -30,7 +30,7 @@
             android:title="@string/mdnie_negative_title_head"
             android:summary="@string/mdnie_negative_summary_head"
             android:entries="@array/mdnie_negative_entries"
-            android:entryValues="@array/mdnie_mode_entries_values"
+            android:entryValues="@array/mdnie_negative_entries_values"
             android:defaultValue="0" />
 
     </PreferenceCategory>
