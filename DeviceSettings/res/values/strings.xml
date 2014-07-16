@@ -22,8 +22,6 @@
     <string name="mdnie_scenario_summary_head">Set the mDNIe scenario</string>
     <string name="mdnie_mode_title_head">Mode</string>
     <string name="mdnie_mode_summary_head">Set the mDNIe mode</string>
-    <string name="mdnie_negative_title_head">Negative mode</string>
-    <string name="mdnie_negative_summary_head">Invert display colors</string>
-    <string name="mdnie_outdoor_title_head">Outdoor mode</string>
-    <string name="mdnie_outdoor_summary_head">Adjust display for outdoor use</string>
+    <string name="mdnie_negative_title_head">Negative Colors</string>
+    <string name="mdnie_negative_summary_head">Reverses the colors of screen</string>
 </resources>
