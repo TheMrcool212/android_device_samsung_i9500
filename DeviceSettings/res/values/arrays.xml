@@ -23,29 +23,32 @@
         <item>VT</item>
         <item>Browser</item>
         <item>eBook</item>
+        <item>E-Mail</item>
     </string-array>
     <string-array name="mdnie_scenario_entries_values" translatable="false">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+        <item>3</item>
         <item>4</item>
         <item>5</item>
         <item>6</item>
         <item>7</item>
         <item>8</item>
-        <item>9</item>
+        <item>10</item>
     </string-array>
     <string-array name="mdnie_mode_entries">
-        <item>Auto</item>
-        <item>Standard</item>
         <item>Dynamic</item>
+        <item>Standard</item>
         <item>Natural</item>
         <item>Movie</item>
+        <item>Auto (Default)</item>
     </string-array>
     <string-array name="mdnie_mode_entries_values" translatable="false">
-        <item>4</item>
         <item>0</item>
         <item>1</item>
-        <item>3</item>
         <item>2</item>
+        <item>3</item>
+        <item>4</item>
     </string-array>
 </resources>
