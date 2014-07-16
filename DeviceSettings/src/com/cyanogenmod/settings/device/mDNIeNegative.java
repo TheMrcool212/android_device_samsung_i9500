@@ -19,7 +19,7 @@ public class mDNIeNegative extends ListPreference implements Preference.OnPrefer
         this.setOnPreferenceChangeListener(this);
     }
 
-    private static final String FILE = "/sys/class/mdnie/mdnie/acessibility";
+    private static final String FILE = "/sys/class/mdnie/mdnie/accessibility";
 
     public static boolean isSupported() {
         return Utils.fileExists(FILE);
