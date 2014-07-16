@@ -2,6 +2,9 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/app_name">
 
+    <PreferenceScreen 
+            android:layout="@layout/mdnie_preview" />
+
     <PreferenceCategory
             android:key="mdnie"
             android:title="@string/screen_colors_title">
